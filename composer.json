@@ -1,0 +1,30 @@
+{
+    "name": "summer/laravel-alipay-easysdk",
+    "description": "alipay-easysdk laravel 集成扩展包",
+    "type": "library",
+    "require": {
+        "alipaysdk/easysdk": "^1.2",
+        "illuminate/support": "^7.15"
+    },
+    "authors": [
+        {
+            "name": "wangchengtao",
+            "email": "915129420@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wangct\\LaravelAlipay\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wangct\\LaravelAlipay\\ServiceProvider"
+            ],
+            "aliases": {
+                "EasyAlipay": "Wangct\\LaravelAlipay\\Facade"
+            }
+        }
+    }
+}
