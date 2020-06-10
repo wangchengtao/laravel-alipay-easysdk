@@ -1,6 +1,7 @@
 {
     "name": "summer/laravel-alipay-easysdk",
     "description": "alipay-easysdk laravel 集成扩展包",
+    "license": "MIT",
     "type": "library",
     "require": {
         "alipaysdk/easysdk": "^1.2",
