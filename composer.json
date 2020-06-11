@@ -1,6 +1,6 @@
 {
     "name": "wangchengtao/laravel-alipay-easysdk",
-    "description": "alipay-easysdk laravel 集成扩展包",
+    "description": "alipay-easysdk Laravel 集成扩展包",
     "license": "MIT",
     "type": "library",
     "require": {
