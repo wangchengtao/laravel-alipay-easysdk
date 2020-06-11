@@ -43,7 +43,7 @@ class ServiceProvider extends LaravelServiceProvider
             $accounts = config('alipay.'.$name);
 
             foreach ($accounts as $account => $config) {
-                $this->app->singleton('alipay.'.$name, function ($app) use ($name, $config, $class) {
+                $this->app->singleton("alipay.{$name}.{$account}", function ($app) use ($name, $config, $class) {
                     Factory::setOptions(new Config(array_merge(config('alipay.defaults', []), $config)));
 
                     return Factory::{$name}();
