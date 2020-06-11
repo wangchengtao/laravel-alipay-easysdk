@@ -4,7 +4,7 @@
     "license": "MIT",
     "type": "library",
     "require": {
-        "alipaysdk/easysdk": "^1.2",
+        "wangchengtao/alipay-easysdk": "^1.2",
         "illuminate/support": "^5.1 || ^6.0 || ^7.0"
     },
     "authors": [
