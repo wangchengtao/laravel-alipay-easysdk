@@ -1,5 +1,5 @@
 {
-    "name": "summer/laravel-alipay-easysdk",
+    "name": "wangchengtao/laravel-alipay-easysdk",
     "description": "alipay-easysdk laravel 集成扩展包",
     "license": "MIT",
     "type": "library",
