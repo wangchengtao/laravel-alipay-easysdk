@@ -6,6 +6,7 @@ use Alipay\EasySDK\Kernel\Config;
 use Alipay\EasySDK\Kernel\Factory;
 use Alipay\EasySDK\Kernel\Marketing;
 use Alipay\EasySDK\Kernel\Member;
+use Alipay\EasySDK\Kernel\Payment;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
 class ServiceProvider extends LaravelServiceProvider
@@ -35,6 +36,7 @@ class ServiceProvider extends LaravelServiceProvider
         $apps = [
             'marketing' => Marketing::class,
             'member' => Member::class,
+            'payment' => Payment::class,
         ];
 
         foreach ($apps as $name => $class) {
